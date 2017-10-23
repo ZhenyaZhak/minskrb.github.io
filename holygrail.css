@@ -1,0 +1,13 @@
+/* Define grid areas */
+.header { grid-area: header; }
+.footer { grid-area: footer; }
+.main { grid-area: main; }
+
+.grid {
+  display: grid;
+  grid-template-areas: "header header header"
+                       "main main main"
+                       "footer footer footer";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
